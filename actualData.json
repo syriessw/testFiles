@@ -1,0 +1,177 @@
+{
+	"tree" : {
+		"nodeName" : "Base",
+		"name" : "Roles & Responsibilities",
+		"type" : "type1",
+		"description" : "RR1",
+		"label" : "RR1",
+		"position" : "v1.0",
+		"link" : {
+				"name" : "Responsibilities Breakdown",
+				"nodeName" : "Responsibilities Breakdown",
+				"direction" : "ASYN"
+			},
+		"children" : [{
+				"nodeName" : "DCL Testing & Quality",
+				"name" : "DCL Testing & Quality",
+				"type" : "type2",
+				"description" : "Develops an expertise in the DCL grammar, and is able to design and write high standard, efficient code, that contributes to standardisation, scalability and maintenance.",
+				"label" : "Responsibility_TestQuality",
+				"position" : "v1.0",
+				"link" : {
+						"name" : "Link Responsibility to DCL Testing",
+						"nodeName" : "DCL Testing & Quality",
+						"direction" : "ASYN"
+					},
+				"children" : [{
+						"nodeName" : "DCL - Fundamental Awareness",
+						"name" : "DCL - Fundamental Awareness",
+						"type" : "type3",
+						"description" : "Writes DCL according to standard guidelines; requires guidance from senior engineers to apply concepts and coding standards",
+						"label" : "DCL - Fundamental Awareness",
+						"position" : ["Graduate"],
+						"link" : {
+								"name" : "Link DCL Responsibility to DCL Fundamental",
+								"nodeName" : "DCL - Fundamental Awareness",
+								"direction" : "ASYN"
+							},
+						"children" : []
+					}, {
+						"nodeName" : "DCL - Novice",
+						"name" : "DCL - Novice",
+						"type" : "type3",
+						"description" : "Awareness of dry configuration principles and follows them constantly",
+						"label" : "DCL - Novice",
+						"position" : ["Graduate", "Junior"],
+						"link" : {
+								"name" : "Link DCL Responsibility to DCL Novice",
+								"nodeName" : "DCL - Novice",
+								"direction" : "ASYN"
+							},
+						"children" : []
+					}, {
+						"nodeName" : "DCL - Intermediate",
+						"name" : "DCL - Intermediate",
+						"type" : "type3",
+						"description" : "Has a clean top to bottom DCL code, easily interpreted by anyone with minimal knowledge, has low number of bugs and defects, is able to recognise a workaround from a standard configuration",
+						"label" : "DCL - Intermediate",
+						"position" : ["Junior", "Level 1"],
+						"link" : {
+								"name" : "Link DCL Responsibility to DCL Intermediate",
+								"nodeName" : "DCL - Intermediate",
+								"direction" : "ASYN"
+							},
+						"children" : []
+					}, {
+                        "nodeName" : "DCL - Advanced",
+						"name" : "DCL - Advanced",
+						"type" : "type3",
+						"description" : "Capable of improving coding standards proactively, and able to perform final code reviews on complex areas of Darwin",
+						"label" : "DCL - Advanced",
+						"position" : ["Junior", "Level 1"],
+						"link" : {
+								"name" : "Link DCL Responsibility to DCL Advanced",
+								"nodeName" : "DCL - Advanced",
+								"direction" : "ASYN"
+							},
+						"children" : []
+                    }, {
+                        "nodeName" : "DCL - Expert",
+						"name" : "DCL - Expert",
+						"type" : "type3",
+						"description" : "Spots trends in missconfiguration and provide plans for prevention and improvement, In constant communication with architecture in order to assess and improve current standards, perfoamcne investigation and optimisation of code",
+						"label" : "DCL - Expert",
+						"position" : ["Level 1", "Level 2"],
+						"link" : {
+								"name" : "Link DCL Responsibility to DCL Expert",
+								"nodeName" : "DCL - Expert",
+								"direction" : "ASYN"
+							},
+						"children" : []
+                    }
+				]
+			}, {
+				"nodeName" : "NODE NAME 2.2",
+				"name" : "NODE NAME 2.2",
+				"type" : "type1",
+				"description" : "N2.2",
+				"label" : "Node name 2.2",
+				"position" : "v1.0",
+				"link" : {
+						"name" : "Link node 1 to 2.2",
+						"nodeName" : "NODE NAME 2.2",
+						"direction" : "ASYN"
+					},
+				"children" : []
+			}, {
+				"nodeName" : "NODE NAME 2.3",
+				"name" : "NODE NAME 2.3",
+				"type" : "type1",
+				"description" : "N2.3",
+				"label" : "Node name 2.3",
+				"position" : "v1.0",
+				"link" : {
+						"name" : "Link node 1 to 2.3",
+						"nodeName" : "NODE NAME 2.3",
+						"direction" : "ASYN"
+					},
+				"children" : [{
+						"nodeName" : "NODE NAME 3.3",
+						"name" : "NODE NAME 3.3",
+						"type" : "type1",
+						"description" : "N3.3",
+						"label" : "Node name 3.3",
+						"position" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : [{
+								"nodeName" : "NODE NAME 4.1",
+								"name" : "NODE NAME 4.1",
+								"type" : "type4",
+								"description" : "N4.1",
+								"label" : "Node name 4.1",
+								"position" : "v1.0",
+								"link" : {
+										"name" : "Link node 3.3 to 4.1",
+										"nodeName" : "NODE NAME 4.1",
+										"direction" : "SYNC"
+									},
+								"children" : []
+							}
+						]
+					}, {
+						"nodeName" : "NODE NAME 3.4",
+						"name" : "NODE NAME 3.4",
+						"type" : "type1",
+						"description" : "N3.4",
+						"label" : "Node name 3.4",
+						"position" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.4",
+								"nodeName" : "NODE NAME 3.4",
+								"direction" : "ASYN"
+							},
+						"children" : [{
+								"nodeName" : "NODE NAME 4.2",
+								"name" : "NODE NAME 4.2",
+								"type" : "type4",
+								"description" : "N4.2",
+								"label" : "Node name 4.2",
+								"position" : "v1.0",
+								"link" : {
+										"name" : "Link node 3.4 to 4.2",
+										"nodeName" : "NODE NAME 4.1",
+										"direction" : "ASYN"
+									},
+								"children" : []
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
